@@ -1,0 +1,96 @@
+[
+  {
+    "project": "Badminton",
+    "url": "https://badminton-nu.vercel.app/",
+    "repo": "Public",
+    "repoUrl": "https://github.com/OneKadian/Badminton",
+    "descriptionTitle": "Dynamic badminton score counter",
+    "description": "keeping a record of matches and creating a leaderboard based on scores",
+    "imageOptions": [
+      { "key": "size", "value": "large" }
+    ],
+    "images": [
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/badmintonTop.png" },
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
+      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/badmintonBottom.png" }
+    ],
+    "stack": [
+      { "key": "nextjs", "name": "Next.js", "type": "devicon" },
+      { "key": "javascript", "name": "JavaScript", "type": "devicon" },
+      { "key": "materialui", "name": "Material UI", "type": "devicon" },
+      { "key": "tailwindcss", "name": "Tailwind CSS", "type": "devicon" },
+      { "key": "postgresql", "name": "Database", "type": "devicon" },
+      { "key": "google", "name": "Authentication", "type": "devicon" },
+      { "key": "git", "name": "Git(Hub)", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "indiehackerkit.com",
+    "url": "https://indiehackerkit.com",
+    "repo": "Public",
+    "repoUrl": "https://github.com/OneKadian/IndieHackerKit",
+    "descriptionTitle": "SaaS boilerplate that turns developers into founders",
+    "description": "and enables them to launch and execute their ideas.",
+    "imageOptions": [],
+    "images": [
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/ihkTop.png" },
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
+      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/ihkBottom.png" }
+    ],
+    "stack": [
+      { "key": "nextjs", "name": "Next JS", "type": "devicon" },
+      { "key": "javascript", "name": "JavaScript", "type": "devicon" },
+      { "key": "tailwindcss", "name": "Tailwind CSS", "type": "devicon" },
+      { "key": "postgresql", "name": "Database", "type": "devicon" },
+      { "key": "google", "name": "Authentication", "type": "devicon" },
+      { "key": "materialui", "name": "Material Ui", "type": "devicon" },
+      { "key": "git", "name": "Git(Hub)", "type": "devicon" },
+      { "key": "", "name": "Payments", "type": "devicon" },
+      { "key": "", "name": "Documentation", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "Movies",
+    "url": "https://lighthearted-sfogliatella-f4605c.netlify.app/",
+    "repo": "Public",
+    "repoUrl": "https://github.com/kadianAnirudh/Bayzat",
+    "descriptionTitle": "Browse movies, add them to your favorites,",
+    "description": "and enjoy a Netflix-like user experience.",
+    "imageOptions": [],
+    "images": [
+      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/moviesTop.png" },
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/moviesBottom.png" }
+    ],
+    "stack": [
+      { "key": "react", "name": "React", "type": "devicon" },
+      { "key": "javascript", "name": "JavaScript", "type": "devicon" },
+      { "key": "materialui", "name": "Material UI", "type": "devicon" },
+      { "key": "html5", "name": "HTML5", "type": "devicon" },
+      { "key": "css3", "name": "CSS3", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "Distance",
+    "url": "https://chipper-palmier-350063.netlify.app/",
+    "repo": "Public",
+    "repoUrl": "https://github.com/kadianAnirudh/montauk",
+    "descriptionTitle": "Calculate distance between two airports",
+    "description": "along with a visual flight path on Google Maps.",
+    "imageOptions": [
+      { "key": "size", "value": "large" }
+    ],
+    "images": [
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/airportupper.png" },
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
+      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/airportlower.png" }
+    ],
+    "stack": [
+      { "key": "react", "name": "React", "type": "devicon" },
+      { "key": "javascript", "name": "JavaScript", "type": "devicon" },
+      { "key": "google", "name": "Google Maps", "type": "devicon" },
+      { "key": "html5", "name": "HTML5", "type": "devicon" },
+      { "key": "css3", "name": "CSS3", "type": "devicon" }
+    ]
+  }
+]

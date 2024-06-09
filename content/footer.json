@@ -1,0 +1,33 @@
+{
+	"acknowledgments": [
+		{ 
+			"person": "The Ultimate Job Seeker's Handbook",
+			"link": "https://anirudhkadian.gumroad.com/l/omudx",
+			"note": "streamline your job search and land that job!"
+		}
+	],
+
+	"links": [
+		{ 
+			"person": "Indie Hacker Kit",
+			"link": "https://www.indiehackerkit.com/",
+			"note": "Turn your idea into a product with this one"
+		},
+		{ 
+			"person": "Notion Resume",
+			"link": "https://www.indiehackerkit.com/",
+			"note": "Because this website couldn't talk enough"
+		}
+	],
+
+	"social": [
+		{
+			"url": "https://www.linkedin.com/onekadian/",
+			"icon": "linkedin"
+		},
+		{
+			"url": "https://github.com/OneKadian",
+			"icon": "github"
+		}
+	]
+}

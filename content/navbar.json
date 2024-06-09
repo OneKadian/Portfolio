@@ -1,0 +1,21 @@
+[
+    {
+        "url": "/",
+        "title": "About Me",
+        "id": "about-me"
+    },
+    {
+        "url": "/projects",
+        "title": "Projects",
+        "id": "projects"
+    },
+    {
+        "url": "/experience",
+        "title": "Experience",
+        "id": "experience"
+    },
+    {
+        "url": "https://docs.google.com/document/d/1YedPeglm5_79Nr5ncwKStlZ03IjM8kCY/edit?usp=sharing&ouid=103602672697506292363&rtpof=true&sd=true",
+        "title": "Resume"
+    }
+]
