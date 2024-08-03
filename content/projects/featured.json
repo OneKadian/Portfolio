@@ -10,9 +10,9 @@
       { "key": "size", "value": "large" }
     ],
     "images": [
-      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/badmintonTop.png" },
-      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/badmintonBottom.png" }
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/badmintonTop.png", "websiteURL": "https://badminton-nu.vercel.app/" },
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png", "websiteURL": "https://badminton-nu.vercel.app/" },
+      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/badmintonBottom.png", "websiteURL": "https://badminton-nu.vercel.app/" }
     ],
     "stack": [
       { "key": "nextjs", "name": "Next.js", "type": "devicon" },
@@ -33,9 +33,9 @@
     "description": "and enables them to launch and execute their ideas.",
     "imageOptions": [],
     "images": [
-      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/ihkTop.png" },
-      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/ihkBottom.png" }
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/ihkTop.png", "websiteURL": "https://indiehackerkit.com" },
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png", "websiteURL": "https://indiehackerkit.com" },
+      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/ihkBottom.png", "websiteURL": "https://indiehackerkit.com" }
     ],
     "stack": [
       { "key": "nextjs", "name": "Next JS", "type": "devicon" },
@@ -58,9 +58,9 @@
     "description": "and enjoy a Netflix-like user experience.",
     "imageOptions": [],
     "images": [
-      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/moviesTop.png" },
-      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/moviesBottom.png" }
+      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/moviesTop.png", "websiteURL": "https://lighthearted-sfogliatella-f4605c.netlify.app/" },
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png", "websiteURL": "https://lighthearted-sfogliatella-f4605c.netlify.app/" },
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/moviesBottom.png", "websiteURL": "https://lighthearted-sfogliatella-f4605c.netlify.app/" }
     ],
     "stack": [
       { "key": "react", "name": "React", "type": "devicon" },
@@ -81,9 +81,9 @@
       { "key": "size", "value": "large" }
     ],
     "images": [
-      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/airportupper.png" },
-      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/airportlower.png" }
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/airportupper.png", "websiteURL": "https://chipper-palmier-350063.netlify.app/" },
+      { "key": "mock-stack", "hover": "right", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png", "websiteURL": "https://chipper-palmier-350063.netlify.app/"  },
+      { "key": "mock-stack", "hover": "left", "h": "1200", "w": "556", "url": "/img/msc-mock_stack/airportlower.png", "websiteURL": "https://chipper-palmier-350063.netlify.app/"  }
     ],
     "stack": [
       { "key": "react", "name": "React", "type": "devicon" },

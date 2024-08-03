@@ -66,18 +66,24 @@ export default function FeaturedProject({ content }, index) {
             </span>
           </div>
           <div className={css.description}>
-            <p>
-              <strong>{descriptionTitle}</strong> {description}
-            </p>
+            {/* Title */}
+            <Link href={url}>
+              <p>
+                <strong>{descriptionTitle}</strong> {description}
+              </p>
+            </Link>
           </div>
-          <div className={css.stackContainer}>
-            <Badges
-              list={stack}
-              block="stack"
-              fullContainer={false}
-              color={false}
-            />
-          </div>
+          <Link href={url}>
+            <div className={css.stackContainer}>
+              <Badges
+                list={stack}
+                block="stack"
+                fullContainer={false}
+                color={false}
+              />
+            </div>
+          </Link>
+
           <m.div variants={""} className={css.viewProject}>
             <Link href={url}>
               <a style={{ cursor: "pointer" }}>
@@ -86,17 +92,22 @@ export default function FeaturedProject({ content }, index) {
             </Link>
           </m.div>
         </div>
+        {/* </Link> */}
+        {/* Ends */}
+        {/* </div> */}
       </div>
 
       <div className={css.imageContainer}>
         <span className={`${css.imageAnimationContainer}`}>
-          {images.map(({ key, url, hover, h, w }, index) => {
+          {images.map(({ key, url, hover, h, w, websiteURL }, index) => {
             hover = hover === "left" ? hoverLeft : hoverRight;
             return (
               <m.div key={`${index}-${key}`} variants={item}>
-                <m.div variants={hover}>
-                  <Image src={url} alt="x" height={h} width={w} />
-                </m.div>
+                <Link href={websiteURL} className="cursor-pointer">
+                  <m.div variants={hover}>
+                    <Image src={url} alt="x" height={h} width={w} />
+                  </m.div>
+                </Link>
               </m.div>
             );
           })}
