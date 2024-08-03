@@ -47,7 +47,7 @@ export default function Technical() {
             />
             <BadgesBlock
               title="Marketing Strategist, Bloom Egg"
-              copy="Aug 2020 - Nov 2021"
+              copy="Aug 2021 - Nov 2021"
               copy2="I would take physical businesses online via high performing ecommerce websites,
 			  and also generate successful Facebook ad campaigns with a ROAS exceeding 10x. By consistently delivering projects ahead of schedule and leveraging client feedback, I drove client acquisition and retention, contributing to agency growth."
               list={software}
