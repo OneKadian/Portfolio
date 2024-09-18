@@ -17,7 +17,7 @@ export default function FeaturedProjects() {
         <SectionTitle
           title="Featured Projects"
           //   preTitle="Stuff I built"
-          subTitle="Focused on the experience, driven by passion."
+          // subTitle="Focused on the experience, driven by passion."
         />{" "}
         {content.map((data, index) => {
           return <FeaturedProject content={data} index={index} key={index} />;

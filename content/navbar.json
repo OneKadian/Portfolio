@@ -1,9 +1,5 @@
 [
-    {
-        "url": "/",
-        "title": "About Me",
-        "id": "about-me"
-    },
+
     {
         "url": "/projects",
         "title": "Projects",
@@ -15,7 +11,12 @@
         "id": "experience"
     },
     {
-        "url": "https://docs.google.com/document/d/1YedPeglm5_79Nr5ncwKStlZ03IjM8kCY/edit?usp=sharing&ouid=103602672697506292363&rtpof=true&sd=true",
+        "url": "https://docs.google.com/document/d/1Hvnud6fHHbsOYSCX68LjeMX40B2FwBS9RrXcvhfAt98/edit?usp=sharing",
         "title": "Resume"
+    },
+        {
+        "url": "https://cal.com/onekadian/30min",
+        "title": "Book a call",
+        "id": ""
     }
 ]

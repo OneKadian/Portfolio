@@ -30,7 +30,7 @@ export default function Technical() {
         <SectionTitle
           title="Work Experience"
           //   preTitle="Hardskills"
-          subTitle="As a creative technologist, I have been crafting intuitive digital experiences using a diverse set of tools and languages."
+          // subTitle="As a creative technologist, I have been crafting intuitive digital experiences using a diverse set of tools and languages."
         />
         <section
           className={`${about.content} ${about.container}`}
@@ -58,7 +58,7 @@ export default function Technical() {
               headerIcon={about.icon}
             />
             <BadgesBlock
-              title="Freelance Developer"
+              title="Fullstack Developer"
               copy="Jan 2022 - Present"
               copy2=" I have a passion for building innovative solutions that address real-world problems.
 			   My journey has been driven by a relentless pursuit of knowledge and a knack for generating 
@@ -89,7 +89,7 @@ export default function Technical() {
 
 const software = [
   { key: "", name: "Shopify", type: "devicon" },
-  { key: "facebook", name: "Facebook", type: "devicon" },
+  { key: "facebook", name: "Facebook Ads", type: "devicon" },
   { key: "canva", name: "Canva", type: "devicon" },
   //   { key: "vscode", name: "VSCode", type: "devicon" },
   //   { key: "mailbox", name: "Postman", type: "fas" },
@@ -106,7 +106,6 @@ const tech = [
   { key: "nodejs", name: "NodeJS", type: "devicon" },
   { key: "react", name: "React", type: "devicon" },
   { key: "nextjs", name: "NextJS", type: "devicon" },
-  { key: "jquery", name: "jQuery", type: "devicon" },
   { key: "python", name: "Python", type: "devicon" },
   { key: "google", name: "GCP", type: "devicon" },
   { key: "mysql", name: "MySQL", type: "devicon" },
