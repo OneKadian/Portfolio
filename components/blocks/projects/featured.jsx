@@ -49,6 +49,7 @@ export default function FeaturedProject({ content }, index) {
       <div className={css.details}>
         <div className={css.projectHeader}>
           <div className={css.header}>
+            {/* Title links to repoUrl */}
             <h3
               className="highlight"
               onClick={() => window.open(repoUrl, "_blank")}
@@ -56,6 +57,7 @@ export default function FeaturedProject({ content }, index) {
             >
               {project}
             </h3>
+            {/* Repo component links to repoUrl */}
             <span
               className={css.privateOr}
               onClick={() => window.open(repoUrl, "_blank")}
@@ -65,36 +67,42 @@ export default function FeaturedProject({ content }, index) {
               {repo}
             </span>
           </div>
-          <div className={css.description}>
-            {/* Title */}
-            <Link href={url}>
-              <p>
-                <strong>{descriptionTitle}</strong> {description}
-              </p>
-            </Link>
-          </div>
-          <Link href={url}>
-            <div className={css.stackContainer}>
-              <Badges
-                list={stack}
-                block="stack"
-                fullContainer={false}
-                color={false}
-              />
-            </div>
-          </Link>
 
-          <m.div variants={""} className={css.viewProject}>
-            <Link href={url}>
-              <a style={{ cursor: "pointer" }}>
-                <Icon icon={["fad", "arrow-right-to-bracket"]} />
-              </a>
-            </Link>
+          {/* Description links to url */}
+          <div
+            className={css.description}
+            onClick={() => window.open(url, "_blank")}
+            style={{ cursor: "pointer" }}
+          >
+            <p>
+              <strong>{descriptionTitle}</strong> {description}
+            </p>
+          </div>
+
+          {/* Tags/Stack section links to url */}
+          <div
+            className={css.stackContainer}
+            onClick={() => window.open(url, "_blank")}
+            style={{ cursor: "pointer" }}
+          >
+            <Badges
+              list={stack}
+              block="stack"
+              fullContainer={false}
+              color={false}
+            />
+          </div>
+
+          {/* Arrow Icon links to url */}
+          <m.div
+            variants={""}
+            className={css.viewProject}
+            onClick={() => window.open(url, "_blank")}
+            style={{ cursor: "pointer" }}
+          >
+            <Icon icon={["fad", "arrow-right-to-bracket"]} />
           </m.div>
         </div>
-        {/* </Link> */}
-        {/* Ends */}
-        {/* </div> */}
       </div>
 
       <div className={css.imageContainer}>
@@ -103,11 +111,13 @@ export default function FeaturedProject({ content }, index) {
             hover = hover === "left" ? hoverLeft : hoverRight;
             return (
               <m.div key={`${index}-${key}`} variants={item}>
-                <Link href={websiteURL} className="cursor-pointer">
-                  <m.div variants={hover}>
-                    <Image src={url} alt="x" height={h} width={w} />
-                  </m.div>
-                </Link>
+                <m.div
+                  variants={hover}
+                  onClick={() => window.open(websiteURL, "_blank")}
+                  style={{ cursor: "pointer" }} // Ensures the cursor changes to pointer
+                >
+                  <Image src={url} alt="x" height={h} width={w} />
+                </m.div>
               </m.div>
             );
           })}

@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Anirudh = ( name, passion ) =>",
+		"start": "const Anirudh = ( name, developer ) =>",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -12,10 +12,10 @@
 
 	"header": {
 		"name": "Anirudh Kadian.",
-		"usp": "I build interesting experiences."
+		"usp": "Full Stack developer"
 	},
 
-	"paragraph": "Coder by trade, learner by heart. I love building things on the web, and I'm constantly on the lookout for new challenges and technologies. Dive in and see what I've been creating!",
+	"paragraph": "I'm a full-stack software developer with experience in using Next JS/React JS with Cloud services (AWS/GCP), databases (Supabase/MongoDB), and Tailwind CSS/UI libraries",
 
 	"buttons": {
 		"primary": {

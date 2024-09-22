@@ -31,9 +31,8 @@ export default function About() {
       <Container spacing={["verticalXXXLrg"]}>
         <SectionTitle
           title="About Me"
-          preTitle="Synopsis"
-          subTitle="I excel in teamwork, with strong communication skills and a talent for self-directed learning.
-		   My organized approach and eagerness for new challenges make me a valuable team member."
+          // preTitle="Synopsis"
+          subTitle="Full-stack developer with a passion for building scalable web applications using technologies like Next.js/React.js, AWS, and Supabase."
         />
         <section className={about.content} id="about-me">
           {/* <div className={about.video}>
@@ -69,7 +68,7 @@ export default function About() {
               fullContainer="fullContainer"
               block="methods"
               //   icon="fingerprint"
-              copy="I take ideas from concept to code. My passion lies in crafting the entire digital experience, from meticulous research and strategic planning to user-friendly web design and flawless execution."
+              copy=" I focus on delivering high-quality, scalable solutions using modern technologies like Next.js and AWS, ensuring every project is built to perform seamlessly from concept to deployment."
               //invertedColor="invertedColor"
               headerIcon={`${about.icon}`}
             />
@@ -81,10 +80,10 @@ export default function About() {
 }
 
 const methods = [
-  { key: "planet-moon", name: "Market Research", type: "fad" },
-  { key: "qrcode", name: "Product Strategy", type: "fad" },
-  { key: "window", name: "Web Design", type: "fad" },
-  { key: "cubes", name: "Project Planning", type: "far" },
-  { key: "layer-plus", name: "Communication", type: "fad" },
-  { key: "solar-system", name: "Fullstack coder", type: "fad" },
+  { key: "nextjs", name: "NextJS", type: "devicon" },
+  { key: "javascript", name: "JavaScript", type: "devicon" },
+  { key: "nodejs", name: "NodeJS", type: "devicon" },
+  { key: "react", name: "ReactJS", type: "devicon" },
+  { key: "amazonwebservices", name: "AWS", type: "devicon" },
+  { key: "google", name: "GCP", type: "devicon" },
 ];
