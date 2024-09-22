@@ -19,6 +19,9 @@ import Next from "../../../public/img/nextjs.png";
 import Reacto from "../../../public/img/react.png";
 import AWS from "../../../public/img/aws.png";
 import Image from "next/image";
+import { m, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 /**
  * TO DO LIST
@@ -32,6 +35,32 @@ import Image from "next/image";
 
 export default function Hero() {
   const [typingStatus, setTypingStatus] = useState("Initializing");
+
+  const controls = useAnimation();
+  const { ref, inView } = useInView({
+    threshold: 0.25, // Adjust threshold as needed
+    triggerOnce: true, // Only animate once
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
+  const variants = {
+    hidden: { opacity: 0, y: 100 }, // Slide up from bottom with opacity
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+        ease: "easeOut",
+      },
+    },
+  };
 
   return (
     // <Section classProp={`${hero.section}`}>
@@ -133,7 +162,11 @@ export default function Hero() {
         </section>
 
         {/* Row of Tech Logos */}
-        <section
+        <m.section
+          ref={ref}
+          animate={controls}
+          initial="hidden"
+          variants={variants}
           style={{
             marginBottom: "2.5rem",
           }}
@@ -144,16 +177,17 @@ export default function Hero() {
               flexDirection: "row",
               justifyContent: "start",
               alignItems: "center",
-              gap: "1rem", // reduced gap
+              gap: "1rem",
               marginTop: "1.5rem",
             }}
           >
+            {/* Repeat for each icon */}
             <div
               style={{
-                height: "66px", // 64px image + 2px padding
-                width: "66px", // 64px image + 2px padding
+                height: "66px",
+                width: "66px",
                 display: "flex",
-                padding: "1px", // 1px padding on all sides
+                padding: "1px",
               }}
             >
               <Image
@@ -222,7 +256,7 @@ export default function Hero() {
               }
             }
           `}</style>
-        </section>
+        </m.section>
 
         <section>
           <button
