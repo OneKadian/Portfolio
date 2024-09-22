@@ -47,7 +47,8 @@ export default function About() {
           </div> */}
           <div className={`${about.image} iframe-container`}>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=bBIbux1ijtA" // Embed Youtube video with proper URL format
+              // url="https://www.youtube.com/watch?v=bBIbux1ijtA"
+              url="https://youtu.be/CYcj3KbhH1o" // Embed Youtube video with proper URL format
               width="100%"
               height="calc(100vh - 20rem)" // Adjust height based on viewport height and desired padding
             />
